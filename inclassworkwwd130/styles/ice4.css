@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    margin: 0 auto;
+    background-color: pink;
+    max-width: 600px
+
+}
+
+.maincontent {
+    width: 450px;
+  /*background-color: yellow; */
+    text-align: center;
+}
+
+h1:hover{
+    color:black;
+    max-width: 600px;
+    max-height: 800px;
+    margin: 0 auto;
+}
+
+main{
+    margin: 0 auto;
+}
+
+ol{
+    text-align: center;
+}

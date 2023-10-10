@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Sansita+Swashed:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: "Noto Sans JP", sans-serif;
+	background: #1e90ff;
+}
+
+/* -------------------------------------- */
+
+#navigationContainer {
+  width: 100%;
+	padding: 0;
+	display: inline-flex;
+	background-color: #0077ea;
+	color: white;
+	justify-content: space-between;
+	position: absolute;
+	top: 0;
+}
+
+#brandDiv {
+  padding-left: .25em;
+}
+
+#brandDiv img {
+	height: 51px;
+  width: auto;
+	padding: 0 0.5em 0 0;
+}
+
+.list {
+	display: inline-flex;
+	flex-wrap: nowrap;
+	margin: 0px;
+}
+
+#topnav a {
+	color: white;
+	display: block;
+	padding: 12.5px 16px;
+	border-bottom: 4px solid transparent;
+  text-decoration: none;
+}
+
+/* Change the color of links on hover */
+#topnav a:hover {
+	background-color: #ddd;
+	text-decoration: none;
+	color: black;
+	border-bottom: 4px solid brown;
+}
+
+.icon {
+		display: none;
+		height: 51.7px;
+		padding: 0;
+		float: right;
+		color: gold;
+		background-color: brown;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+  
+  .fa-bars {
+   margin-top: 0.6em;
+  }
+
+	.icon:hover {
+		color: black;
+		background-color: #ddd;
+	}
+
+	#topnav.responsive {
+		position: relative;
+		background-color: #333;
+		display: block;
+		float: none;
+		top: 51.7px;
+		right: 0;
+	}
+
+	#topnav.responsive a {
+		text-align: center;
+		width: 10em;
+	}
+
+	#navigationContainer {
+		height: 51.7px;
+	}
+}
+
+/* -------------------------------------- */
+#banner {
+	width: 100%;
+}
+
+.banner-img {
+	width: 100%;
+	height: auto;
+}
+
+main {
+	margin-top: 10em;
+	background: #1e90ff;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+.main-content {
+	background: white;
+	max-width: 940px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+.container-fluid {
+	display: flex;
+	flex-flow: row nowrap;
+	padding: 1em;
+}
+
+@media screen and (min-width: 956px) {
+	.banner-img {
+		border-radius: 15px 15px 0 0;
+	}
+
+	.main-content {
+		border-radius: 15px;
+	}
+  
+  #faq b {
+  text-align: left;
+}
+
+#faq p {
+  text-align: left;
+  margin: 2em 0 2em 0;
+  width: 70%;
+}
+}
+
+@media screen and (max-width: 640px) {
+	
+	.list {display:none;}
+	
+	.icon {display:block;}
+	
+	.container-fluid {
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+	}
+
+	.container-fluid div {
+		width: 100%;
+		padding: 0;
+		margin: 1em 0 1em 0;
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;
+	}
+	
+	.container-fluid div h2 {
+		width: 90%;
+		text-align: center;
+	}
+
+	.container-fluid div p {
+		width: 90%;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+	}
+	
+	#rush > #a { order: 2; }
+	#rush > #b { order: 1; }
+	
+	#last p {
+		padding-bottom: 2em;
+	}
+  
+  main {
+    margin-top: 3em;
+  }
+  
+  #faq b {
+  text-align: left;
+}
+
+#faq p {
+  text-align: left;
+  margin: 2em 0 2em 0;
+  width: 70%;
+}
+	
+}
+
+.container-fluid img {
+	border-radius: 5px;
+	max-width: 100%;
+	width: 13em;
+	height: auto;
+	margin: 0 2em 2em 2em;
+}
+
+h2 {
+	border-top: 2px brown solid;
+	border-bottom: 2px brown solid;
+	padding: 0.5em 0 0.5em 0;
+	font-family: "Sansita Swashed", cursive;
+	width: 10em;
+}
+
+.container-fluid p {
+	width: 15em;
+	margin-left: 4em;
+}
+
+#last {
+	width: 100%;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#last p,
+#last h2 {
+	width: 60%;
+}
+
+footer {
+	background: #1e90ff;
+	margin-top: 2em;
+	font-family: "Roboto Mono", monospace;
+}
+
+.foot-box {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer ul {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	padding: 0 1em 0 1em;
+}
+
+footer li {
+	margin-left: 1em;
+	list-style-type: none;
+}
+
+.fa {
+	padding: 0.5em;
+	font-size: 1em;
+	width: 2em;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 0.15em;
+}
+
+.fa-facebook {
+	background: #3b5998;
+	color: white;
+}
+
+.fa-linkedin {
+	background: #007bb5;
+	color: white;
+}
+
+.fa-youtube {
+	background: #bb0000;
+	color: white;
+}
+
+#faq b {
+  text-align: left;
+}
+
+#faq p {
+  text-align: left;
+  margin: 2em 0 2em 0;
+  width: 70%;
+}
+
+#rivers p {
+  padding: 1em;
+  width: 90%;
+  margin: 0;
+}
+
+#rivers {
+  justify-content: center;
+}
+
+#rivers img {
+  width: 70%;
+  max-width: 100%;
+  border-radius: 15px;
+}
