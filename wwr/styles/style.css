@@ -1,5 +1,5 @@
 #content{
-    width:1600px;
+    max-width: 1600px;
     margin: 0 auto;
   }
 
@@ -9,8 +9,13 @@
     text-decoration: none;
   }
 
+#hero-img{
+    width:100%;
+}
+
   #hero-msg h1, #hero-msg h4{
     text-align: center;
+
   }
 
   .button-box{
@@ -67,7 +72,7 @@ footer{
     color: white;
 }
 footer a{
-    color:brown;
+    color:white;
     text-decoration: none;
 }
 footer a:hover{

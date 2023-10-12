@@ -10,3 +10,8 @@ background-color: gray;
 width: 20%;
 }
 
+.circle{
+    border-radius: 100%;
+    width: 20%
+    
+}
