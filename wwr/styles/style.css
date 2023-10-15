@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +9,7 @@
     text-align: center;
     color: antiquewhite;
     text-decoration: none;
+    padding: 35px;
   }
 
 #hero-img{
@@ -39,25 +42,32 @@ nav a:hover{
     color: rgb(244, 240, 234);
 }
 .book, .join{
-    background-color: rgb(51, 206, 206);
-    color: brown;
+    background-color:#4d4b36;
+    color: yellow;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: rgb(64, 184, 184);
     color: brown;
 }
 #background{
-    background-color: black;
+    background-color: tan;
 }
 .msg{
-    background-color: rgb(64, 184, 184);
+    background-color: brown;
+    padding: 35px;
 }
 footer{
     background-color: brown;
 }
 .home-title{
-    color: rgb(237, 234, 229);
+    color: rgb(85 56 9);
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: brown;
@@ -66,10 +76,13 @@ h4{
     color: brown ;
 }
 .msg p{
-    color: brown;
+    color: beige;
+    padding-bottom: 15px;
 }
 footer{
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color:white;
@@ -83,6 +96,7 @@ footer a:hover{
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 footer p{
     font-size: 1.2em;
@@ -90,3 +104,36 @@ footer p{
 footer p a:hover{
     text-decoration: underline;
 }
+
+.mountains{
+    margin: 100px;
+}
+
+#logo_link{ 
+    padding-top: 5px;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card{
+    margin: 200px 0;
+}
+
+.camping-card{
+    margin: 200px 0;
+}
+
+.rapids-card{
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+            
