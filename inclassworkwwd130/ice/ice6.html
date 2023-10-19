@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cherries</title>
+    <style>
+        .gridcontainer{
+            display: grid;
+            grid-template-rows: auto auto;
+            grid-template-columns: auto auto;
+        }
+        .tart{
+             grid-column: 1/3;
+             text-align: center;
+             letter-spacing: 10px;
+             line-height: 1.8;
+             font-size: 150px;
+            }
+        .cherri{
+            grid-column: 1/3;
+            text-align: right;
+            color: red;
+        }
+        .cherrypic{
+            grid-column: 1/2;
+            grid-row:1/3;
+        }
+            
+    </style>
+</head>
+<body>
+    <div class="gridcontainer">
+        <h1 class="tart">Tart & Sweet</h1> 
+        <h2 class="cherri"> Cherries</h2> 
+        <img class="cherrypic" src="w06_cherries.png" alt="cherry pic" width="600px"> 
+    </div>
+</body>
+</html>

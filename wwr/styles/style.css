@@ -1,46 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display&display=swap');
 
+body{
+    background-color: beige;
+    margin: 0;
+}
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
-  }
+}
 
-  nav a{
+header{
+    background-color: brown;
+}
+
+#logo_link{ 
+    padding-top: 5px;
+}
+.logo{
+    width: 80px;
+}
+
+nav a{
     text-align: center;
     color: antiquewhite;
     text-decoration: none;
     padding: 35px;
-  }
-
-#hero-img{
-    width:100%;
-}
-
-  #hero-msg h1, #hero-msg h4{
-    text-align: center;
-
-  }
-
-  .button-box{
-    text-align: center;
-  }
-
-  main section{
-    text-align: center;
-  }
-#background{
-    height: 725px;
-}
-body{
-    background-color: beige;
-}
-header{
-    background-color: brown;
 }
 nav a:hover{
     background-color: rgb(142, 92, 18);
     color: rgb(244, 240, 234);
 }
+
+#hero-img{
+    width:100%;
+}
+
+#hero-msg h1, #hero-msg h4{
+text-align: center;
+
+}
+
+.home-title{
+    color: rgb(85 56 9);
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h4{
+    color: brown;
+}
+
+.button-box{
+    text-align: center;
+}
+
 .book, .join{
     background-color:#4d4b36;
     color: yellow;
@@ -53,68 +68,12 @@ nav a:hover{
     background-color: rgb(64, 184, 184);
     color: brown;
 }
-#background{
-    background-color: tan;
-}
-.msg{
-    background-color: brown;
-    padding: 35px;
-}
-footer{
-    background-color: brown;
-}
-.home-title{
-    color: rgb(85 56 9);
-    font-family: 'Playfair Display', serif;
-    font-size: 2em;
-    margin-top: 10px;
-}
-h4{
-    color: brown;
-}
-.msg h2{ 
-    color: brown ;
-}
-.msg p{
-    color: beige;
-    padding-bottom: 15px;
-}
-footer{
-    color: white;
-    padding: 25px 50px;
-    margin-top: 200px;
-}
-footer a{
-    color:white;
-    text-decoration: none;
-}
-footer a:hover{
-    color:white;
-}
-.logo{
-    width: 80px;
-}
-.icon{
-    width: 80px;
-    padding-top: 10px;
-}
-footer p{
-    font-size: 1.2em;
-}
-footer p a:hover{
-    text-decoration: underline;
-}
 
-.mountains{
-    margin: 100px;
+main section{
+    text-align: center;
 }
-
-#logo_link{ 
-    padding-top: 5px;
-}
-
-footer .social img{
-    padding-top: 15px;
+main section img {
+    box-sizing: border-box;
 }
 
 .rivers-card{
@@ -133,7 +92,53 @@ footer .social img{
     border: 10px solid #d9c2a3;
 }
 
-main section img {
-    box-sizing: border-box;
+.icon{
+    width: 80px;
+    padding-top: 10px;
 }
-            
+
+#background{
+    height: 725px;
+    background-color: tan;
+}
+
+.mountains{
+    margin: 100px 0;
+}
+
+.msg{
+    background-color: brown;
+    padding: 35px;
+}
+.msg h2{ 
+    color: beige ;
+}
+.msg p{
+    color: beige;
+    padding-bottom: 15px;
+}
+
+footer{
+    background-color: brown;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer a{
+    color:white;
+    text-decoration: none;
+}
+footer a:hover{
+    color:white;
+}
+
+footer p{
+    font-size: 1.2em;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
+
+footer .social img{
+    padding-top: 15px;
+}       
