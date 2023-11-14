@@ -190,6 +190,34 @@ footer .social img{
     padding-top: 15px;
 }       
 
+/* rivers page */
+.river-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-content: space-between;
+    justify-items: center;
+    justify-content: center;
+
+}
+.images{
+    grid-column: span;
+    size: 100%;
+}
+.h2forrivers{
+    display: grid;
+    align-content: center;
+
+}
+
+.para{
+    display: grid;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+}
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
