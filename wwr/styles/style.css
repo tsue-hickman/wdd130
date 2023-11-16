@@ -66,6 +66,11 @@ text-align: center;
 
 }
 
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
 .home-title{
     color: rgb(85 56 9);
     font-family: 'Playfair Display', serif;
